@@ -39,7 +39,6 @@ void store(){
 		//printf("y1==%lf x1==%lf l==%lf r==%lf\n",dot[i].y1,dot[i].x1,l,r );
 		if(l>r)	swap(l,r);
 		if (r - l >= pi){
-			printf("ty\n");
 			sta[m].angle = -pi;
 			sta[m++].status = 1;
 			sta[m].angle = l;
